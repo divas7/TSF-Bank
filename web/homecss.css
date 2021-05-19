@@ -1,0 +1,68 @@
+header {
+background-color: rgb(10, 10, 10);
+padding: 5px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+
+/* Container for flexboxes */
+section {
+display: -webkit-flex;
+display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+-webkit-flex: 1;
+-ms-flex: 1;
+flex: 1;
+background: hsl(177, 86%, 49%);
+padding: 10px;
+}
+
+/* Style the list inside the menu */
+navul {
+list-style-type: none;
+text-align: center;
+padding: 0;
+}
+
+/* Style the content */
+article {
+-webkit-flex: 3;
+-ms-flex: 3;
+flex: 3;
+background-color: #f1f1f1;
+padding: 10px;
+}
+
+/* Style the footer */
+footer {
+background-color: #000000;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: autoautoautoauto;
+grid-gap: 100px;
+background-color: hsl(0, 0%, 0%);
+padding: 20px;
+align-content: space-between;
+justify-content: space-evenly;
+grid-column-gap: 50px;
+grid-column-end: auto;
+grid-column-start: auto;
+}
+
+.grid-container>div {
+background-color: rgba(255, 255, 255, 0.8);
+border: 1pxsolidblack;
+text-align: center;
+font-size: 30px;
+}
+
+
